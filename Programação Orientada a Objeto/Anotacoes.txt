@@ -1,1 +1,28 @@
-Testando o git
+Membros Estáticos: são membros de classes, eles não precisam ser instanciados para serem usados, são usados chamando o nome da classe e em seguida o membro
+
+Construtor: é uma operação especial de classe, que executa no momento da instanciação do objeto.
+
+Encapsulamento: É um princípio que consiste em esconder detalhes de implementação de uma classe, expondo apenas operações seguras e que mantenham os objetos em um estado 
+consistente. Um objeto não deve expor nenhum atributo (private). Os atributos devem ser acessados por get ands sets, porém em cshap não é comum utilizar o getsets, 
+utiliza-se a properties.
+
+Tipo referência: são variáveis cujo o tipo são classes não armazenam o valor em si, mas armazenam o endereço de memória que leva pra uma "caixa" composta na área de 
+memória heap. Tipos referência aceitam o valor "null" (significa que ela não aponta pra ninguém)
+
+Tipo valor: em c# tem os tipo valor conhecidos como strucks, caixas que armazenam valores no espaço de memória stack.
+
+Enumerações: É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas. Palavras chave enum. Enum é um tipo valor.
+
+Herança: É um tipo de associação que permite que uma classe herde dados e comportamentos de outra. As vantagens de se usar a herança são o reuso e o polimorfismo. 
+Para usar a herança em c# usamos o “:”(Estende), e o “Base” para referenciar a super classe. Herança permite o reuso de atributos e métodos (Dados e comportamentos).
+
+Polimorfismo: O polimorfismo é um recurso que permite que variáveis de um mesmo tipo mais genérico possam apontar para objetos de tipos específicos diferentes, 
+tendo assim comportamentos diferentes conforme cada tipo específico.
+
+Classes Abstratas: são classes que não podem ser instanciadas. É uma forma de garantir herança total. Somente subclasses não abstratas podem ser instanciadas, 
+mas nunca a superclasse abstrata. É como se fosse um template de classe que diferente da interface os métodos podem ser implementados n própria classe. 
+Ajuda muito no reuso e polimorfismo.
+
+Métodos Abstratos: São métodos que não possuem implementação. Métodos precisam ser abstratos quando a classe é genérica demais para conter sua implementação. 
+Se uma classe possuir pelo menos um método abstrato, então esta classe também é abstrata.
+
